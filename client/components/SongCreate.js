@@ -31,7 +31,7 @@ class SongCreate extends Component {
                     <lable>Song Title:</lable>
                     <input onChange={e => this.setState({ title: e.target.value })} value={this.state.title} />
                 </form>
-                <Link to="/"><i className="medium right material-icons">reply</i></Link>
+                <Link to="/"><i className="right material-icons">reply</i></Link>
             </div>
         );
     }
