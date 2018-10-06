@@ -1,0 +1,78 @@
+Arguments: 
+  C:\DevPrograms\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\DevPrograms\Python\Scripts\;C:\DevPrograms\Python\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\DevPrograms\MongoDB\Server\3.4\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\xampp\php\php.exe;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Program Files (x86)\MATLAB\R2016a\runtime\win64;D:\Program Files (x86)\MATLAB\R2016a\bin;D:\Program Files (x86)\MATLAB\R2016a\polyspace\bin;C:\Program Files\Git\bin;C:\DevPrograms\nodejs\;C:\Program Files (x86)\Nmap\ncat.exe;C:\ffmpeg\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code Insiders\bin;C:\Program Files (x86)\Brackets\command;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CMake\bin;D:\Test;C:\Users\hungt\Anaconda3;C:\Users\hungt\Anaconda3\Library\mingw-w64\bin;C:\Users\hungt\Anaconda3\Library\usr\bin;C:\Users\hungt\Anaconda3\Library\bin;C:\Users\hungt\Anaconda3\Scripts;C:\Ruby24-x64\bin;C:\Users\hungt\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code Insiders\bin;C:\Users\hungt\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Heroku\bin;C:\Users\hungt\AppData\Roaming\npm;C:\Users\hungt\AppData\Roaming\Dashlane\4.6.6.23032\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\hungt\AppData\Roaming\Dashlane\4.6.8.26847\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\hungt\AppData\Local\Yarn\bin;C:\Users\hungt\AppData\Local\.meteor;C:\Users\hungt\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CMake\bin;C:\Qt\Tools\mingw530_32\bin;D:\Test;
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "lyrical",
+    "version": "1.0.0",
+    "description": "GraphQL",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hungtrn75/GraphQL-Lyrical"
+    },
+    "scripts": {
+      "dev": "nodemon index.js --ignore client"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "nodemon": "*",
+      "apollo-client": "^0.8.1",
+      "axios": "^0.15.3",
+      "babel-core": "^6.22.1",
+      "babel-loader": "^6.2.10",
+      "babel-preset-env": "^1.1.8",
+      "babel-preset-react": "^6.22.0",
+      "body-parser": "^1.16.0",
+      "connect-mongo": "^1.3.2",
+      "css-loader": "^0.26.1",
+      "express": "^4.14.0",
+      "express-graphql": "^0.6.1",
+      "express-session": "^1.15.0",
+      "graphql": "^0.8.2",
+      "html-webpack-plugin": "^2.26.0",
+      "lodash": "^4.17.4",
+      "mongoose": "^4.7.8",
+      "passport": "^0.3.2",
+      "passport-local": "^1.0.0",
+      "react": "15.4.2",
+      "react-apollo": "^0.9.0",
+      "react-dom": "15.4.2",
+      "react-router": "^3.0.2",
+      "style-loader": "^0.13.1",
+      "webpack": "^2.2.0",
+      "webpack-dev-middleware": "^1.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command "start" not found.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:87307:17
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:23451:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:95:12
+      at runCommand (C:\Program Files (x86)\Yarn\lib\cli.js:87312:22)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:87412:14)
